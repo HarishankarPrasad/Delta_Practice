@@ -1,0 +1,41 @@
+#Flexbox {
+    height: 400px;
+    width: 400px;
+    background-color: #fff;
+    border: solid green;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+.Flexitem {
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    text-align: center;
+    background-color: gray;
+    border: solid black;
+    border-radius: 10px;
+}
+
+#Flexbox2 {
+    height: 50px;
+    width: 900px;
+    background-color: orange;
+    border: solid gray;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.Flexitem2 {
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 8px;
+}
